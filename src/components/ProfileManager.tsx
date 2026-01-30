@@ -122,7 +122,7 @@ export default function ProfileManager() {
       </button>
 
       {open && (
-        <div className="absolute right-0 top-full mt-1 w-72 bg-gray-900 border border-gray-700 rounded-lg shadow-xl z-50 p-3 space-y-3">
+        <div className="fixed inset-x-3 top-14 sm:absolute sm:inset-x-auto sm:right-0 sm:top-full sm:mt-1 sm:w-72 max-h-[80vh] overflow-y-auto bg-gray-900 border border-gray-700 rounded-lg shadow-xl z-50 p-3 space-y-3">
           {/* Profile list */}
           {profiles.length > 0 && (
             <div className="space-y-1">
