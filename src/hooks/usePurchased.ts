@@ -30,8 +30,10 @@ function getSnapshot(): Set<string> {
   return currentIds;
 }
 
+const EMPTY_SET: Set<string> = new Set();
+
 function getServerSnapshot(): Set<string> {
-  return new Set();
+  return EMPTY_SET;
 }
 
 // Initialize on first client-side load
