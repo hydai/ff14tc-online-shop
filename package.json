@@ -1,12 +1,13 @@
 {
-  "name": "ffxiv-tc-temp",
+  "name": "ffxiv-tc-shop-list",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "crawl": "npx tsx scripts/crawl.ts"
   },
   "dependencies": {
     "next": "16.1.6",
@@ -20,7 +21,10 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
+    "node-html-parser": "^7.0.2",
+    "playwright": "^1.58.0",
     "tailwindcss": "^4",
+    "tsx": "^4.21.0",
     "typescript": "^5"
   }
 }
