@@ -4,6 +4,7 @@ import { useState, useMemo } from "react";
 import { getAllItems, getMainCategories, getSubCategories } from "@/lib/items";
 import { usePurchased } from "@/hooks/usePurchased";
 import { useWishlist } from "@/hooks/useWishlist";
+import { hasPriceDropped } from "@/lib/priceUtils";
 import Header from "@/components/Header";
 import SearchBar from "@/components/SearchBar";
 import CategoryFilter from "@/components/CategoryFilter";
@@ -18,6 +19,7 @@ export default function Home() {
   const [selectedSub, setSelectedSub] = useState("");
   const [hidePurchased, setHidePurchased] = useState(false);
   const [showWishlistOnly, setShowWishlistOnly] = useState(false);
+  const [showPriceDropOnly, setShowPriceDropOnly] = useState(false);
 
   const { purchasedCount, toggle: togglePurchased, isPurchased } = usePurchased();
   const { wishlistCount, toggle: toggleWishlist, isWishlisted } = useWishlist();
@@ -55,9 +57,12 @@ export default function Home() {
       if (showWishlistOnly && !isWishlisted(item.id)) {
         return false;
       }
+      if (showPriceDropOnly && !hasPriceDropped(item)) {
+        return false;
+      }
       return true;
     });
-  }, [search, selectedMain, selectedSub, hidePurchased, showWishlistOnly, isPurchased, isWishlisted]);
+  }, [search, selectedMain, selectedSub, hidePurchased, showWishlistOnly, showPriceDropOnly, isPurchased, isWishlisted]);
 
   return (
     <div className="min-h-screen">
@@ -72,7 +77,7 @@ export default function Home() {
           <div className="flex-1">
             <SearchBar value={search} onChange={setSearch} />
           </div>
-          <div className="flex items-center gap-4">
+          <div className="flex flex-wrap items-center gap-4">
             <label className="flex items-center gap-2 text-sm text-gray-300 cursor-pointer whitespace-nowrap">
               <input
                 type="checkbox"
@@ -90,6 +95,15 @@ export default function Home() {
                 className="rounded border-gray-600 bg-gray-800 text-rose-500 focus:ring-rose-500"
               />
               只顯示願望清單
+            </label>
+            <label className="flex items-center gap-2 text-sm text-gray-300 cursor-pointer whitespace-nowrap">
+              <input
+                type="checkbox"
+                checked={showPriceDropOnly}
+                onChange={(e) => setShowPriceDropOnly(e.target.checked)}
+                className="rounded border-gray-600 bg-gray-800 text-green-500 focus:ring-green-500"
+              />
+              價格下降
             </label>
           </div>
         </div>
