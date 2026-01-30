@@ -24,7 +24,7 @@ export default function ItemCard({ item, purchased, isWishlisted, onToggle, onTo
   const increased = hasPriceIncreased(item);
 
   const badgeTitle = previousPrice !== null
-    ? `Was ${previousPrice.toLocaleString()} 水晶, now ${item.price.toLocaleString()} 水晶`
+    ? `原價 ${previousPrice.toLocaleString()} 水晶, 現價 ${item.price.toLocaleString()} 水晶`
     : undefined;
 
   return (
@@ -43,7 +43,7 @@ export default function ItemCard({ item, purchased, isWishlisted, onToggle, onTo
           }`}
           title={badgeTitle}
         >
-          {dropped ? `↓ ${changePercent}%` : `↑ +${changePercent}%`}
+          {dropped ? `↓ ${Math.abs(changePercent)}%` : `↑ +${changePercent}%`}
         </div>
       )}
 
