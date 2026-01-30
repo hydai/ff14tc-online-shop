@@ -14,7 +14,7 @@ const CORS_ORIGIN = "https://tc-shop.ff14.tw";
 const ID_PATTERN = /^[A-Za-z0-9]{8}$/;
 const MAX_BODY_SIZE = 100 * 1024; // 100KB
 const MAX_NAME_LENGTH = 50;
-const RATE_LIMIT_MAX = 30;
+const RATE_LIMIT_MAX = 300;
 const RATE_LIMIT_WINDOW = 60; // seconds
 
 function corsHeaders(): HeadersInit {
