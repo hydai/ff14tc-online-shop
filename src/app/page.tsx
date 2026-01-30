@@ -3,6 +3,7 @@
 import { useState, useMemo } from "react";
 import { getAllItems, getMainCategories, getSubCategories } from "@/lib/items";
 import { usePurchased } from "@/hooks/usePurchased";
+import { useWishlist } from "@/hooks/useWishlist";
 import Header from "@/components/Header";
 import SearchBar from "@/components/SearchBar";
 import CategoryFilter from "@/components/CategoryFilter";
@@ -16,8 +17,10 @@ export default function Home() {
   const [selectedMain, setSelectedMain] = useState("");
   const [selectedSub, setSelectedSub] = useState("");
   const [hidePurchased, setHidePurchased] = useState(false);
+  const [showWishlistOnly, setShowWishlistOnly] = useState(false);
 
-  const { purchasedCount, toggle, isPurchased } = usePurchased();
+  const { purchasedCount, toggle: togglePurchased, isPurchased } = usePurchased();
+  const { wishlistCount, toggle: toggleWishlist, isWishlisted } = useWishlist();
 
   const subCategories = useMemo(
     () => (selectedMain ? getSubCategories(selectedMain) : []),
@@ -28,6 +31,12 @@ export default function Home() {
     setSelectedMain(id);
     setSelectedSub("");
   };
+
+  const wishlistTotalCost = useMemo(() => {
+    return allItems
+      .filter((item) => isWishlisted(item.id))
+      .reduce((sum, item) => sum + item.price, 0);
+  }, [isWishlisted]);
 
   const filtered = useMemo(() => {
     return allItems.filter((item) => {
@@ -43,27 +52,46 @@ export default function Home() {
       if (hidePurchased && isPurchased(item.id)) {
         return false;
       }
+      if (showWishlistOnly && !isWishlisted(item.id)) {
+        return false;
+      }
       return true;
     });
-  }, [search, selectedMain, selectedSub, hidePurchased, isPurchased]);
+  }, [search, selectedMain, selectedSub, hidePurchased, showWishlistOnly, isPurchased, isWishlisted]);
 
   return (
     <div className="min-h-screen">
-      <Header purchased={purchasedCount} total={allItems.length} />
+      <Header
+        purchased={purchasedCount}
+        total={allItems.length}
+        wishlistCount={wishlistCount}
+        wishlistTotalCost={wishlistTotalCost}
+      />
       <main className="max-w-7xl mx-auto px-4 py-4 space-y-4">
         <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
           <div className="flex-1">
             <SearchBar value={search} onChange={setSearch} />
           </div>
-          <label className="flex items-center gap-2 text-sm text-gray-300 cursor-pointer whitespace-nowrap">
-            <input
-              type="checkbox"
-              checked={hidePurchased}
-              onChange={(e) => setHidePurchased(e.target.checked)}
-              className="rounded border-gray-600 bg-gray-800 text-emerald-500 focus:ring-emerald-500"
-            />
-            隱藏已購買
-          </label>
+          <div className="flex items-center gap-4">
+            <label className="flex items-center gap-2 text-sm text-gray-300 cursor-pointer whitespace-nowrap">
+              <input
+                type="checkbox"
+                checked={hidePurchased}
+                onChange={(e) => setHidePurchased(e.target.checked)}
+                className="rounded border-gray-600 bg-gray-800 text-emerald-500 focus:ring-emerald-500"
+              />
+              隱藏已購買
+            </label>
+            <label className="flex items-center gap-2 text-sm text-gray-300 cursor-pointer whitespace-nowrap">
+              <input
+                type="checkbox"
+                checked={showWishlistOnly}
+                onChange={(e) => setShowWishlistOnly(e.target.checked)}
+                className="rounded border-gray-600 bg-gray-800 text-rose-500 focus:ring-rose-500"
+              />
+              只顯示願望清單
+            </label>
+          </div>
         </div>
 
         <CategoryFilter
@@ -82,7 +110,9 @@ export default function Home() {
         <ItemGrid
           items={filtered}
           isPurchased={isPurchased}
-          onToggle={toggle}
+          isWishlisted={isWishlisted}
+          onToggle={togglePurchased}
+          onToggleWishlist={toggleWishlist}
         />
       </main>
 
