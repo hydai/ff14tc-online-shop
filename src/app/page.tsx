@@ -1,9 +1,11 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { getAllItems, getMainCategories, getSubCategories } from "@/lib/items";
 import { usePurchased } from "@/hooks/usePurchased";
 import { useWishlist } from "@/hooks/useWishlist";
+import { init as initProfileStore } from "@/lib/profileStore";
+import { useSync } from "@/hooks/useSync";
 import { hasPriceDropped } from "@/lib/priceUtils";
 import Header from "@/components/Header";
 import SearchBar from "@/components/SearchBar";
@@ -21,8 +23,13 @@ export default function Home() {
   const [showWishlistOnly, setShowWishlistOnly] = useState(false);
   const [showPriceDropOnly, setShowPriceDropOnly] = useState(false);
 
+  useEffect(() => {
+    initProfileStore();
+  }, []);
+
   const { purchasedCount, toggle: togglePurchased, isPurchased } = usePurchased();
   const { wishlistCount, toggle: toggleWishlist, isWishlisted } = useWishlist();
+  const { syncStatus } = useSync();
 
   const subCategories = useMemo(
     () => (selectedMain ? getSubCategories(selectedMain) : []),
@@ -71,6 +78,7 @@ export default function Home() {
         total={allItems.length}
         wishlistCount={wishlistCount}
         wishlistTotalCost={wishlistTotalCost}
+        syncStatus={syncStatus}
       />
       <main className="max-w-7xl mx-auto px-4 py-4 space-y-4">
         <div className="flex flex-col gap-3 sm:flex-row sm:items-center">

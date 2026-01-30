@@ -1,0 +1,12 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "ffxiv-tc-profile-api",
+	"main": "src/index.ts",
+	"compatibility_date": "2025-01-29",
+	"kv_namespaces": [
+		{
+			"binding": "TCSTORE",
+			"id": "115ba8e41fad42a0b585817df42ae15e"
+		}
+	]
+}

@@ -22,3 +22,17 @@ export interface CrawlResult {
   totalItems: number;
   items: StoreItem[];
 }
+
+export interface Profile {
+  id: string;            // 8-char alphanumeric (share code)
+  name: string;          // Character name
+  purchased: string[];   // Item IDs
+  wishlist: string[];    // Item IDs
+  updatedAt: number;     // Unix ms timestamp
+}
+
+export interface ProfileStore {
+  version: 1;
+  activeProfileId: string | null;
+  profiles: Profile[];
+}
