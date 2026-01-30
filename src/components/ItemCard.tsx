@@ -1,6 +1,7 @@
 "use client";
 
 import type { StoreItem } from "@/types";
+import { getPreviousPrice, getPriceChangePercent, hasPriceDropped, hasPriceIncreased } from "@/lib/priceUtils";
 
 interface ItemCardProps {
   item: StoreItem;
@@ -17,12 +18,35 @@ export default function ItemCard({ item, purchased, isWishlisted, onToggle, onTo
       ? "border-rose-400"
       : "border-gray-700 hover:border-gray-500";
 
+  const previousPrice = getPreviousPrice(item);
+  const changePercent = getPriceChangePercent(item);
+  const dropped = hasPriceDropped(item);
+  const increased = hasPriceIncreased(item);
+
+  const badgeTitle = previousPrice !== null
+    ? `Was ${previousPrice.toLocaleString()} 水晶, now ${item.price.toLocaleString()} 水晶`
+    : undefined;
+
   return (
     <div
       className={`group relative rounded-lg border-2 transition-all overflow-hidden ${borderClass} ${
         purchased ? "opacity-60" : ""
       }`}
     >
+      {/* Price change badge */}
+      {changePercent !== null && (dropped || increased) && (
+        <div
+          className={`absolute top-2 left-2 z-10 rounded-full px-2 py-0.5 text-xs font-semibold ${
+            dropped
+              ? "bg-green-500/90 text-white"
+              : "bg-orange-500/90 text-white"
+          }`}
+          title={badgeTitle}
+        >
+          {dropped ? `↓ ${changePercent}%` : `↑ +${changePercent}%`}
+        </div>
+      )}
+
       {/* Action buttons */}
       <div className="absolute top-2 right-2 z-10 flex flex-col gap-1 opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity">
         <button
@@ -66,8 +90,13 @@ export default function ItemCard({ item, purchased, isWishlisted, onToggle, onTo
         <h3 className="text-sm font-medium text-white line-clamp-2 leading-tight">
           {item.name}
         </h3>
-        <div className="mt-1 flex items-center justify-between">
-          <span className="text-sm font-semibold text-amber-400">
+        <div className="mt-1 flex items-center gap-1.5">
+          {previousPrice !== null && (
+            <span className="text-xs text-gray-500 line-through">
+              {previousPrice.toLocaleString()}
+            </span>
+          )}
+          <span className={`text-sm font-semibold ${dropped ? "text-green-400" : "text-amber-400"}`}>
             {item.price.toLocaleString()} 水晶
           </span>
         </div>
