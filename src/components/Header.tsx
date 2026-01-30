@@ -13,22 +13,22 @@ interface HeaderProps {
 
 export default function Header({ purchased, total, wishlistCount, wishlistTotalCost, syncStatus }: HeaderProps) {
   return (
-    <header className="sticky top-0 z-50 bg-gray-950/90 backdrop-blur-sm border-b border-gray-800 px-4 py-3">
-      <div className="max-w-7xl mx-auto flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+    <header className="sticky top-0 z-50 border-b border-[var(--color-border)] bg-[var(--color-background)]/85 backdrop-blur-md px-4 py-3">
+      <div className="max-w-6xl mx-auto flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
         <div className="flex items-center gap-3">
-          <h1 className="text-lg font-bold text-white">
+          <h1 className="text-lg font-bold tracking-tight font-[family-name:var(--font-display)]">
             FFXIV 水晶商城清單
           </h1>
           {syncStatus && (
             <span
               className={`w-2 h-2 rounded-full flex-shrink-0 ${
                 syncStatus === "synced"
-                  ? "bg-green-400"
+                  ? "bg-emerald-400 shadow-[0_0_8px_rgba(52,211,153,0.4)]"
                   : syncStatus === "syncing"
-                  ? "bg-yellow-400 animate-pulse"
+                  ? "bg-[var(--color-accent)] animate-pulse shadow-[0_0_8px_rgba(245,158,11,0.4)]"
                   : syncStatus === "error"
-                  ? "bg-red-400"
-                  : "bg-gray-500"
+                  ? "bg-red-400 shadow-[0_0_8px_rgba(248,113,113,0.4)]"
+                  : "bg-[var(--color-muted-foreground)]"
               }`}
               title={
                 syncStatus === "synced"
@@ -49,7 +49,7 @@ export default function Header({ purchased, total, wishlistCount, wishlistTotalC
               <ProgressBar purchased={purchased} total={total} />
             </div>
             {wishlistCount > 0 && (
-              <span className="text-xs text-rose-300">
+              <span className="text-xs text-rose-400/80">
                 願望清單: {wishlistCount} 件, {wishlistTotalCost.toLocaleString()} 水晶
               </span>
             )}
