@@ -39,6 +39,22 @@ function getActiveProfile(): Profile | null {
   return store.profiles.find((p) => p.id === store.activeProfileId) ?? null;
 }
 
+function ensureActiveProfile(): Profile {
+  let profile = getActiveProfile();
+  if (!profile) {
+    profile = {
+      id: generateId(),
+      name: "光之戰士",
+      purchased: [],
+      wishlist: [],
+      updatedAt: Date.now(),
+    };
+    store.profiles.push(profile);
+    store.activeProfileId = profile.id;
+  }
+  return profile;
+}
+
 function touchActiveProfile() {
   const profile = getActiveProfile();
   if (profile) profile.updatedAt = Date.now();
@@ -118,8 +134,7 @@ export function getPurchasedSnapshot(): Set<string> {
 }
 
 export function togglePurchased(id: string) {
-  const profile = getActiveProfile();
-  if (!profile) return;
+  const profile = ensureActiveProfile();
 
   const set = new Set(profile.purchased);
   if (set.has(id)) {
@@ -141,8 +156,7 @@ export function getWishlistSnapshot(): Set<string> {
 }
 
 export function toggleWishlist(id: string) {
-  const profile = getActiveProfile();
-  if (!profile) return;
+  const profile = ensureActiveProfile();
 
   const set = new Set(profile.wishlist);
   if (set.has(id)) {
