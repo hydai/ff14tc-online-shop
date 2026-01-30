@@ -6,10 +6,12 @@ import ItemCard from "./ItemCard";
 interface ItemGridProps {
   items: StoreItem[];
   isPurchased: (id: string) => boolean;
+  isWishlisted: (id: string) => boolean;
   onToggle: (id: string) => void;
+  onToggleWishlist: (id: string) => void;
 }
 
-export default function ItemGrid({ items, isPurchased, onToggle }: ItemGridProps) {
+export default function ItemGrid({ items, isPurchased, isWishlisted, onToggle, onToggleWishlist }: ItemGridProps) {
   if (items.length === 0) {
     return (
       <div className="py-20 text-center text-gray-500">
@@ -25,7 +27,9 @@ export default function ItemGrid({ items, isPurchased, onToggle }: ItemGridProps
           key={item.id}
           item={item}
           purchased={isPurchased(item.id)}
+          isWishlisted={isWishlisted(item.id)}
           onToggle={() => onToggle(item.id)}
+          onToggleWishlist={() => onToggleWishlist(item.id)}
         />
       ))}
     </div>
