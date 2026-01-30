@@ -1,8 +1,8 @@
 import { chromium, type Page } from "playwright";
 import { parse } from "node-html-parser";
-import { writeFileSync, mkdirSync } from "fs";
+import { writeFileSync, mkdirSync, existsSync, readFileSync } from "fs";
 import { join } from "path";
-import type { StoreItem, CrawlResult } from "../src/types";
+import type { StoreItem, CrawlResult, PriceEntry } from "../src/types";
 
 const BASE_URL = "https://www.ffxiv.com.tw";
 const AJAX_URL = `${BASE_URL}/web/Ajax/ajax_store.aspx`;
@@ -84,9 +84,12 @@ interface AjaxResponse {
   msg: string;
 }
 
-function parseItemsFromHtml(html: string): Omit<StoreItem, "mainCategoryId" | "mainCategoryName" | "subCategoryId" | "subCategoryName">[] {
+type ParsedItem = Omit<StoreItem, "mainCategoryId" | "mainCategoryName" | "subCategoryId" | "subCategoryName" | "priceHistory">;
+type CrawledItem = Omit<StoreItem, "priceHistory">;
+
+function parseItemsFromHtml(html: string): ParsedItem[] {
   const root = parse(html);
-  const items: Omit<StoreItem, "mainCategoryId" | "mainCategoryName" | "subCategoryId" | "subCategoryName">[] = [];
+  const items: ParsedItem[] = [];
 
   for (const itemDiv of root.querySelectorAll(".item")) {
     const anchor = itemDiv.querySelector("a");
@@ -147,6 +150,29 @@ function delay(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
+interface OldStoreItem {
+  id: string;
+  price: number;
+  priceHistory?: PriceEntry[];
+}
+
+function loadExistingItems(filePath: string): Map<string, OldStoreItem> {
+  const map = new Map<string, OldStoreItem>();
+  if (!existsSync(filePath)) return map;
+  try {
+    const raw = readFileSync(filePath, "utf-8");
+    const data = JSON.parse(raw) as { items?: OldStoreItem[] };
+    if (data.items) {
+      for (const item of data.items) {
+        map.set(item.id, item);
+      }
+    }
+  } catch {
+    console.log("⚠️  Could not load existing data, starting fresh");
+  }
+  return map;
+}
+
 async function fetchWithRetry(
   page: Page,
   params: { pkind: string; pMainID?: string; pSubID?: string; pPage: number },
@@ -184,7 +210,11 @@ async function main() {
   await page.goto(`${BASE_URL}/web/store/`, { waitUntil: "networkidle" });
   console.log("✅ Connected to store\n");
 
-  const allItems = new Map<string, StoreItem>();
+  const allItems = new Map<string, CrawledItem>();
+  const outDir = join(process.cwd(), "data");
+  const outPath = join(outDir, "items.json");
+  const existingItems = loadExistingItems(outPath);
+  console.log(`📦 Loaded ${existingItems.size} existing items for price history\n`);
   let requestCount = 0;
 
   // Phase 1: Crawl by sub-category to get category metadata
@@ -289,16 +319,38 @@ async function main() {
 
   await browser.close();
 
-  // Output results
+  // Merge price history
+  const crawledAt = new Date().toISOString();
+  const mergedItems: StoreItem[] = [];
+
+  for (const item of allItems.values()) {
+    const existing = existingItems.get(item.id);
+    let priceHistory: PriceEntry[];
+
+    if (existing && existing.priceHistory && existing.priceHistory.length > 0) {
+      // Item exists with history
+      if (existing.priceHistory[0].price !== item.price) {
+        // Price changed — prepend new entry
+        priceHistory = [{ price: item.price, date: crawledAt }, ...existing.priceHistory];
+      } else {
+        // Price unchanged — keep existing history
+        priceHistory = existing.priceHistory;
+      }
+    } else {
+      // New item or migration from old format
+      priceHistory = [{ price: item.price, date: crawledAt }];
+    }
+
+    mergedItems.push({ ...item, priceHistory });
+  }
+
   const result: CrawlResult = {
-    crawledAt: new Date().toISOString(),
-    totalItems: allItems.size,
-    items: Array.from(allItems.values()),
+    crawledAt,
+    totalItems: mergedItems.length,
+    items: mergedItems,
   };
 
-  const outDir = join(process.cwd(), "data");
   mkdirSync(outDir, { recursive: true });
-  const outPath = join(outDir, "items.json");
   writeFileSync(outPath, JSON.stringify(result, null, 2), "utf-8");
 
   console.log(`\n✅ Done! Crawled ${result.totalItems} items`);
