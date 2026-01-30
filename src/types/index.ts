@@ -1,3 +1,8 @@
+export interface PriceEntry {
+  price: number;
+  date: string; // ISO 8601 timestamp
+}
+
 export interface StoreItem {
   id: string;
   name: string;
@@ -9,6 +14,7 @@ export interface StoreItem {
   subCategoryId: string;
   subCategoryName: string;
   promotion: boolean;
+  priceHistory: PriceEntry[];
 }
 
 export interface CrawlResult {
