@@ -85,6 +85,27 @@ export default function Home() {
           onToggle={toggle}
         />
       </main>
+
+      <footer className="max-w-7xl mx-auto px-4 py-6 mt-8 border-t border-gray-800 text-xs text-gray-500 space-y-1">
+        <p>FINAL FANTASY XIV &copy; SQUARE ENIX</p>
+        <p>Published by USERJOY Technology Co., Ltd. Jointly Published by NADA HOLDINGS.</p>
+        <p>
+          FINAL FANTASY is a registered trademark of Square Enix Holdings Co., Ltd.
+          All FINAL FANTASY XIV content and materials are trademarks and copyrights of Square Enix or its licensors.
+          This site is not affiliated with or endorsed by Square Enix, USERJOY Technology, or NADA HOLDINGS.
+        </p>
+        <p className="pt-1">
+          Source code licensed under{" "}
+          <a
+            href="https://github.com/hydai/ff14tc-online-shop/blob/master/LICENSE"
+            className="text-gray-400 hover:text-gray-300 underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Apache-2.0
+          </a>
+        </p>
+      </footer>
     </div>
   );
 }
