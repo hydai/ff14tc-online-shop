@@ -110,7 +110,7 @@ export default function ProfileManager() {
 
       <Popover.Portal>
         <Popover.Positioner side="bottom" align="end" sideOffset={4} className="z-50">
-          <Popover.Popup className="w-72 max-h-[80vh] overflow-y-auto bg-gray-900 border border-gray-700 rounded-lg shadow-xl p-3 space-y-3">
+          <Popover.Popup className="w-[calc(100vw-1.5rem)] sm:w-72 max-h-[80vh] overflow-y-auto bg-gray-900 border border-gray-700 rounded-lg shadow-xl p-3 space-y-3">
             {/* Profile list */}
             {profiles.length > 0 && (
               <div className="space-y-1">
