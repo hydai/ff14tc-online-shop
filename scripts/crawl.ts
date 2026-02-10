@@ -152,7 +152,15 @@ function delay(ms: number): Promise<void> {
 
 interface OldStoreItem {
   id: string;
+  name: string;
   price: number;
+  imageUrl: string;
+  detailUrl: string;
+  mainCategoryId: string;
+  mainCategoryName: string;
+  subCategoryId: string;
+  subCategoryName: string;
+  promotion: boolean;
   priceHistory?: PriceEntry[];
 }
 
@@ -341,7 +349,30 @@ async function main() {
       priceHistory = [{ price: item.price, date: crawledAt }];
     }
 
-    mergedItems.push({ ...item, priceHistory });
+    // Preserve original name — never silently overwrite an existing mapping
+    const name = existing?.name ? existing.name : item.name;
+    mergedItems.push({ ...item, name, priceHistory });
+  }
+
+  // Re-add items that were removed from the store
+  const mergedIds = new Set(mergedItems.map((i) => i.id));
+  for (const [id, existing] of existingItems) {
+    if (!mergedIds.has(id)) {
+      console.log(`   🔒 Preserving removed item: ${existing.name} (${id})`);
+      mergedItems.push({
+        id: existing.id,
+        name: existing.name,
+        price: existing.price,
+        imageUrl: existing.imageUrl,
+        detailUrl: existing.detailUrl,
+        mainCategoryId: existing.mainCategoryId,
+        mainCategoryName: existing.mainCategoryName,
+        subCategoryId: existing.subCategoryId,
+        subCategoryName: existing.subCategoryName,
+        promotion: existing.promotion,
+        priceHistory: existing.priceHistory ?? [{ price: existing.price, date: crawledAt }],
+      });
+    }
   }
 
   const result: CrawlResult = {
