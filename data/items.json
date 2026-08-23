@@ -1,6 +1,6 @@
 {
-  "crawledAt": "2026-03-17T13:42:26.209Z",
-  "totalItems": 496,
+  "crawledAt": "2026-08-23T14:17:01.453Z",
+  "totalItems": 642,
   "items": [
     {
       "id": "C0003_250529184820",
@@ -53,6 +53,24 @@
         {
           "price": 300,
           "date": "2026-01-30T12:38:54.228Z"
+        }
+      ]
+    },
+    {
+      "id": "F0235_260708104102",
+      "name": "青藍君子浴衣(男性角色限定)",
+      "price": 90,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0235_260708104102_260708104102737.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0235_260708104102",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "2",
+      "subCategoryName": "時尚美學",
+      "priceHistory": [
+        {
+          "price": 90,
+          "date": "2026-08-23T14:17:01.453Z"
         }
       ]
     },
@@ -125,6 +143,834 @@
         {
           "price": 540,
           "date": "2026-01-30T12:38:54.228Z"
+        }
+      ]
+    },
+    {
+      "id": "F0240_260708111132",
+      "name": "墨黑淑女浴衣(女性角色限定)",
+      "price": 90,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0240_260708111132_260708111132555.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0240_260708111132",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "2",
+      "subCategoryName": "時尚美學",
+      "priceHistory": [
+        {
+          "price": 90,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0239_260708110734",
+      "name": "青藍淑女浴衣(女性角色限定)",
+      "price": 90,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0239_260708110734_260708110734520.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0239_260708110734",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "2",
+      "subCategoryName": "時尚美學",
+      "priceHistory": [
+        {
+          "price": 90,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0238_260708105913",
+      "name": "丹紅淑女浴衣(女性角色限定)",
+      "price": 90,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0238_260708105913_260708105913498.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0238_260708105913",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "2",
+      "subCategoryName": "時尚美學",
+      "priceHistory": [
+        {
+          "price": 90,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0237_260708105409",
+      "name": "墨黑君子浴衣(男性角色限定)",
+      "price": 90,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0237_260708105409_260708105409537.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0237_260708105409",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "2",
+      "subCategoryName": "時尚美學",
+      "priceHistory": [
+        {
+          "price": 90,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0236_260708105029",
+      "name": "碧綠君子浴衣(男性角色限定)",
+      "price": 90,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0236_260708105029_260708105029861.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0236_260708105029",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "2",
+      "subCategoryName": "時尚美學",
+      "priceHistory": [
+        {
+          "price": 90,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0234_260612164712",
+      "name": "條紋女式夏裝(女性角色限定)",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0234_260612164712_260612164712203.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0234_260612164712",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "2",
+      "subCategoryName": "時尚美學",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0233_260612164546",
+      "name": "晨曦女式夏裝(女性角色限定)",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0233_260612164546_260612164546689.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0233_260612164546",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "2",
+      "subCategoryName": "時尚美學",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0232_260612163657",
+      "name": "條紋男式夏裝(男性角色限定)",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0232_260612163657_260612163657379.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0232_260612163657",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "2",
+      "subCategoryName": "時尚美學",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0231_260612163524",
+      "name": "夜暮男式夏裝(男性角色限定)",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0231_260612163524_260612163524941.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0231_260612163524",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "2",
+      "subCategoryName": "時尚美學",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0230_260612163129",
+      "name": "銀月女式夏裝(女性角色限定)",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0230_260612163129_260612163129994.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0230_260612163129",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "2",
+      "subCategoryName": "時尚美學",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0229_260612162609",
+      "name": "金陽女式夏裝(女性角色限定)",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0229_260612162609_260612162609961.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0229_260612162609",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "2",
+      "subCategoryName": "時尚美學",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0228_260612162418",
+      "name": "蔚藍女式夏裝(女性角色限定)",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0228_260612162418_260612162418650.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0228_260612162418",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "2",
+      "subCategoryName": "時尚美學",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0227_260612162228",
+      "name": "翠綠女式夏裝(女性角色限定)",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0227_260612162228_260612162228829.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0227_260612162228",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "2",
+      "subCategoryName": "時尚美學",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0226_260612162059",
+      "name": "火紅女式夏裝(女性角色限定)",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0226_260612162059_260612162059652.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0226_260612162059",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "2",
+      "subCategoryName": "時尚美學",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0225_260612161730",
+      "name": "銀月男式夏裝(男性角色限定)",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0225_260612161730_260612161730471.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0225_260612161730",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "2",
+      "subCategoryName": "時尚美學",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0224_260612161517",
+      "name": "金陽男式夏裝(男性角色限定)",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0224_260612161517_260612161517207.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0224_260612161517",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "2",
+      "subCategoryName": "時尚美學",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0223_260612161329",
+      "name": "蔚藍男式夏裝(男性角色限定)",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0223_260612161329_260612161330001.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0223_260612161329",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "2",
+      "subCategoryName": "時尚美學",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0222_260612150045",
+      "name": "翠綠男式夏裝(男性角色限定)",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0222_260612150045_260612150046030.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0222_260612150045",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "2",
+      "subCategoryName": "時尚美學",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0221_260612145127",
+      "name": "火紅男式夏裝(男性角色限定)",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0221_260612145127_260612145127886.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0221_260612145127",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "2",
+      "subCategoryName": "時尚美學",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0214_260612103353",
+      "name": "夏暮套裝",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0214_260612103353_260612103353421.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0214_260612103353",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "2",
+      "subCategoryName": "時尚美學",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0213_260608145829",
+      "name": "夏炎套裝",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0213_260608145829_260608145830039.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0213_260608145829",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "2",
+      "subCategoryName": "時尚美學",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0212_260604162354",
+      "name": "永夏套裝",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0212_260604162354_260604162354762.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0212_260604162354",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "2",
+      "subCategoryName": "時尚美學",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0220_260512143803",
+      "name": "桃蝶淑女浴衣(女性角色限定)",
+      "price": 90,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0220_260512143803_260512143804140.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0220_260512143803",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "2",
+      "subCategoryName": "時尚美學",
+      "priceHistory": [
+        {
+          "price": 90,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0219_260512143246",
+      "name": "蒼蝶淑女浴衣(女性角色限定)",
+      "price": 90,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0219_260512143246_260512143247013.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0219_260512143246",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "2",
+      "subCategoryName": "時尚美學",
+      "priceHistory": [
+        {
+          "price": 90,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0218_260512142126",
+      "name": "紅蝶淑女浴衣(女性角色限定)",
+      "price": 90,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0218_260512142126_260512142127116.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0218_260512142126",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "2",
+      "subCategoryName": "時尚美學",
+      "priceHistory": [
+        {
+          "price": 90,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0217_260512140222",
+      "name": "蒼炎君子浴衣(男性角色限定)",
+      "price": 90,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0217_260512140222_260512140223001.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0217_260512140222",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "2",
+      "subCategoryName": "時尚美學",
+      "priceHistory": [
+        {
+          "price": 90,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0216_260512134542",
+      "name": "白炎君子浴衣(男性角色限定)",
+      "price": 90,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0216_260512134542_260512134542649.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0216_260512134542",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "2",
+      "subCategoryName": "時尚美學",
+      "priceHistory": [
+        {
+          "price": 90,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0215_260512114139",
+      "name": "黑炎君子浴衣(男性角色限定)",
+      "price": 90,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0215_260512114139_260512114139518.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0215_260512114139",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "2",
+      "subCategoryName": "時尚美學",
+      "priceHistory": [
+        {
+          "price": 90,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0288_260511145625",
+      "name": "優娜套裝(女性角色限定)",
+      "price": 360,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0288_260511145625_260511145625716.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0288_260511145625",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "2",
+      "subCategoryName": "時尚美學",
+      "priceHistory": [
+        {
+          "price": 360,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0287_260511142053",
+      "name": "提達套裝(男性角色限定)",
+      "price": 360,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0287_260511142053_260511142054193.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0287_260511142053",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "2",
+      "subCategoryName": "時尚美學",
+      "priceHistory": [
+        {
+          "price": 360,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0277_260416150212",
+      "name": "髮型樣式：蓬鬆短髮",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0277_260416150212_260416150212281.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0277_260416150212",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "2",
+      "subCategoryName": "時尚美學",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0275_260416142738",
+      "name": "零套裝",
+      "price": 360,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0275_260416142738_260416142738553.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0275_260416142738",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "2",
+      "subCategoryName": "時尚美學",
+      "priceHistory": [
+        {
+          "price": 360,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0274_260416135600",
+      "name": "髮型樣式：編髮高馬尾",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0274_260416135600_260416135600431.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0274_260416135600",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "2",
+      "subCategoryName": "時尚美學",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0273_260416114101",
+      "name": "運動休閒套裝",
+      "price": 660,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0273_260416114101_260416114101625.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0273_260416114101",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "2",
+      "subCategoryName": "時尚美學",
+      "priceHistory": [
+        {
+          "price": 660,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0272_260416112127",
+      "name": "髮型樣式：血盟公爵",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0272_260416112127_260416112127290.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0272_260416112127",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "2",
+      "subCategoryName": "時尚美學",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0270_260416095647",
+      "name": "古·拉哈·提亞套裝",
+      "price": 360,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0270_260416095647_260416095648070.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0270_260416095647",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "2",
+      "subCategoryName": "時尚美學",
+      "priceHistory": [
+        {
+          "price": 360,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0211_260429113158",
+      "name": "街頭套裝",
+      "price": 660,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0211_260429113158_260429113305481.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0211_260429113158",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "2",
+      "subCategoryName": "時尚美學",
+      "priceHistory": [
+        {
+          "price": 660,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0269_260416153133",
+      "name": "瑪雪莉套裝",
+      "price": 540,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0269_260416153133_260416153133299.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0269_260416153133",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "2",
+      "subCategoryName": "時尚美學",
+      "priceHistory": [
+        {
+          "price": 540,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0268_260416150908",
+      "name": "蒙特套裝",
+      "price": 540,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0268_260416150908_260416150909176.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0268_260416150908",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "2",
+      "subCategoryName": "時尚美學",
+      "priceHistory": [
+        {
+          "price": 540,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0209_260415104345",
+      "name": "公主套裝",
+      "price": 540,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0209_260415104345_260415104346122.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0209_260415104345",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "2",
+      "subCategoryName": "時尚美學",
+      "priceHistory": [
+        {
+          "price": 540,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0208_260413143250",
+      "name": "王子套裝",
+      "price": 540,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0208_260413143250_260413143251073.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0208_260413143250",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "2",
+      "subCategoryName": "時尚美學",
+      "priceHistory": [
+        {
+          "price": 540,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0207_260413140623",
+      "name": "莫古莫古套裝",
+      "price": 360,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0207_260413140623_260413140623194.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0207_260413140623",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "2",
+      "subCategoryName": "時尚美學",
+      "priceHistory": [
+        {
+          "price": 360,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0206_260304135839",
+      "name": "提燈怪套裝",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0206_260304135839_260330155237997.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0206_260304135839",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "2",
+      "subCategoryName": "時尚美學",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0205_260304114140",
+      "name": "貓小胖套裝",
+      "price": 660,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0205_260304114140_260304114141301.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0205_260304114140",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "2",
+      "subCategoryName": "時尚美學",
+      "priceHistory": [
+        {
+          "price": 660,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0204_260304104040",
+      "name": "小雞套裝",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0204_260304104040_260304104040545.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0204_260304104040",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "2",
+      "subCategoryName": "時尚美學",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0200_260303155141",
+      "name": "魔石精套裝",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0200_260303155141_260303155141788.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0200_260303155141",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "2",
+      "subCategoryName": "時尚美學",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
         }
       ]
     },
@@ -2019,6 +2865,168 @@
       ]
     },
     {
+      "id": "F0199_260303142214",
+      "name": "暗黑蛋耳墜",
+      "price": 90,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0199_260303142214_260303142215210.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0199_260303142214",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "4",
+      "subCategoryName": "時尚飾品",
+      "priceHistory": [
+        {
+          "price": 90,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0198_260303135539",
+      "name": "迷彩蛋耳墜",
+      "price": 90,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0198_260303135539_260303135539440.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0198_260303135539",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "4",
+      "subCategoryName": "時尚飾品",
+      "priceHistory": [
+        {
+          "price": 90,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0197_260303134951",
+      "name": "三色蛋耳墜",
+      "price": 90,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0197_260303134951_260303134952085.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0197_260303134951",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "4",
+      "subCategoryName": "時尚飾品",
+      "priceHistory": [
+        {
+          "price": 90,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0196_260303134643",
+      "name": "質樸蛋耳墜",
+      "price": 90,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0196_260303134643_260303134643202.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0196_260303134643",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "4",
+      "subCategoryName": "時尚飾品",
+      "priceHistory": [
+        {
+          "price": 90,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0195_260303134256",
+      "name": "陸行鳥蛋戒指",
+      "price": 90,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0195_260303134256_260303134257211.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0195_260303134256",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "4",
+      "subCategoryName": "時尚飾品",
+      "priceHistory": [
+        {
+          "price": 90,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0194_260303134047",
+      "name": "暗黑蛋戒指",
+      "price": 90,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0194_260303134047_260303134047414.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0194_260303134047",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "4",
+      "subCategoryName": "時尚飾品",
+      "priceHistory": [
+        {
+          "price": 90,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0193_260303133807",
+      "name": "三色蛋戒指",
+      "price": 90,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0193_260303133807_260303133807392.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0193_260303133807",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "4",
+      "subCategoryName": "時尚飾品",
+      "priceHistory": [
+        {
+          "price": 90,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0192_260303133418",
+      "name": "迷彩蛋戒指",
+      "price": 90,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0192_260303133418_260303133418950.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0192_260303133418",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "4",
+      "subCategoryName": "時尚飾品",
+      "priceHistory": [
+        {
+          "price": 90,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0191_260303133126",
+      "name": "質樸蛋戒指",
+      "price": 90,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0191_260303133126_260303133126711.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0191_260303133126",
+      "promotion": false,
+      "mainCategoryId": "1",
+      "mainCategoryName": "外觀與造型",
+      "subCategoryId": "4",
+      "subCategoryName": "時尚飾品",
+      "priceHistory": [
+        {
+          "price": 90,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
       "id": "F0173_260121142455",
       "name": "桃香項環",
       "price": 90,
@@ -2177,6 +3185,114 @@
         {
           "price": 90,
           "date": "2026-01-30T12:38:54.228Z"
+        }
+      ]
+    },
+    {
+      "id": "M0049_260512145547",
+      "name": "鬚鯨",
+      "price": 900,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/M0049_260512145547_260512145547658.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=M0049_260512145547",
+      "promotion": false,
+      "mainCategoryId": "3",
+      "mainCategoryName": "移動與夥伴",
+      "subCategoryId": "1",
+      "subCategoryName": "坐騎",
+      "priceHistory": [
+        {
+          "price": 900,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "M0048_260508170939",
+      "name": "胖莫古利",
+      "price": 900,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/M0048_260508170939_260508170939523.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=M0048_260508170939",
+      "promotion": false,
+      "mainCategoryId": "3",
+      "mainCategoryName": "移動與夥伴",
+      "subCategoryId": "1",
+      "subCategoryName": "坐騎",
+      "priceHistory": [
+        {
+          "price": 900,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "M0047_260415114613",
+      "name": "魔法陽傘",
+      "price": 720,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/M0047_260415114613_260415114613391.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=M0047_260415114613",
+      "promotion": false,
+      "mainCategoryId": "3",
+      "mainCategoryName": "移動與夥伴",
+      "subCategoryId": "1",
+      "subCategoryName": "坐騎",
+      "priceHistory": [
+        {
+          "price": 720,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "M0046_260415105431",
+      "name": "魔法雨傘",
+      "price": 720,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/M0046_260415105431_260415105432039.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=M0046_260415105431",
+      "promotion": false,
+      "mainCategoryId": "3",
+      "mainCategoryName": "移動與夥伴",
+      "subCategoryId": "1",
+      "subCategoryName": "坐騎",
+      "priceHistory": [
+        {
+          "price": 720,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "M0043_260303153708",
+      "name": "貓大胖",
+      "price": 720,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/M0043_260303153708_260330154932755.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=M0043_260303153708",
+      "promotion": false,
+      "mainCategoryId": "3",
+      "mainCategoryName": "移動與夥伴",
+      "subCategoryId": "1",
+      "subCategoryName": "坐騎",
+      "priceHistory": [
+        {
+          "price": 720,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "M0042_260303150433",
+      "name": "彩蛋系統",
+      "price": 360,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/M0042_260303150433_260303150433973.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=M0042_260303150433",
+      "promotion": false,
+      "mainCategoryId": "3",
+      "mainCategoryName": "移動與夥伴",
+      "subCategoryId": "1",
+      "subCategoryName": "坐騎",
+      "priceHistory": [
+        {
+          "price": 360,
+          "date": "2026-08-23T14:17:01.453Z"
         }
       ]
     },
@@ -2721,6 +3837,114 @@
       ]
     },
     {
+      "id": "P0035_260512165532",
+      "name": "迷你琉克",
+      "price": 210,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/P0035_260512165532_260512165532414.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=P0035_260512165532",
+      "promotion": false,
+      "mainCategoryId": "3",
+      "mainCategoryName": "移動與夥伴",
+      "subCategoryId": "2",
+      "subCategoryName": "迷你寵物",
+      "priceHistory": [
+        {
+          "price": 210,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "P0034_260512165406",
+      "name": "迷你露露",
+      "price": 210,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/P0034_260512165406_260512165406754.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=P0034_260512165406",
+      "promotion": false,
+      "mainCategoryId": "3",
+      "mainCategoryName": "移動與夥伴",
+      "subCategoryId": "2",
+      "subCategoryName": "迷你寵物",
+      "priceHistory": [
+        {
+          "price": 210,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "P0031_260512103757",
+      "name": "迷你戈德伯特",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/P0031_260512103757_260512103757934.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=P0031_260512103757",
+      "promotion": false,
+      "mainCategoryId": "3",
+      "mainCategoryName": "移動與夥伴",
+      "subCategoryId": "2",
+      "subCategoryName": "迷你寵物",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "P0033_260511161500",
+      "name": "迷你優娜",
+      "price": 210,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/P0033_260511161500_260511161501095.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=P0033_260511161500",
+      "promotion": false,
+      "mainCategoryId": "3",
+      "mainCategoryName": "移動與夥伴",
+      "subCategoryId": "2",
+      "subCategoryName": "迷你寵物",
+      "priceHistory": [
+        {
+          "price": 210,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "M0044_260304114749",
+      "name": "開心彩蛋幸福兔",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/M0044_260304114749_260304114749387.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=M0044_260304114749",
+      "promotion": false,
+      "mainCategoryId": "3",
+      "mainCategoryName": "移動與夥伴",
+      "subCategoryId": "2",
+      "subCategoryName": "迷你寵物",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "P0030_260303154427",
+      "name": "小丑預言蛋",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/P0030_260303154427_260303154428100.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=P0030_260303154427",
+      "promotion": false,
+      "mainCategoryId": "3",
+      "mainCategoryName": "移動與夥伴",
+      "subCategoryId": "2",
+      "subCategoryName": "迷你寵物",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
       "id": "P0029_260121141146",
       "name": "艾德薇雅人偶",
       "price": 150,
@@ -3243,6 +4467,42 @@
       ]
     },
     {
+      "id": "M0045_260304134123",
+      "name": "EX尋蛋裝甲",
+      "price": 210,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/M0045_260304134123_260304134123164.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=M0045_260304134123",
+      "promotion": false,
+      "mainCategoryId": "3",
+      "mainCategoryName": "移動與夥伴",
+      "subCategoryId": "3",
+      "subCategoryName": "陸行鳥裝備",
+      "priceHistory": [
+        {
+          "price": 210,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "M0041_260303143736",
+      "name": "尋蛋人裝甲",
+      "price": 210,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/M0041_260303143736_260303143736604.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=M0041_260303143736",
+      "promotion": false,
+      "mainCategoryId": "3",
+      "mainCategoryName": "移動與夥伴",
+      "subCategoryId": "3",
+      "subCategoryName": "陸行鳥裝備",
+      "priceHistory": [
+        {
+          "price": 210,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
       "id": "M0027_260119164037",
       "name": "東方裝甲",
       "price": 300,
@@ -3473,6 +4733,78 @@
         {
           "price": 90,
           "date": "2026-01-30T12:38:54.228Z"
+        }
+      ]
+    },
+    {
+      "id": "F0037_250611000133",
+      "name": "漆黑的虛無巨鐮",
+      "price": 90,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0043_250605145229_250605145230791.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0037_250611000133",
+      "promotion": false,
+      "mainCategoryId": "4",
+      "mainCategoryName": "戰鬥與裝備",
+      "subCategoryId": "1",
+      "subCategoryName": "武器",
+      "priceHistory": [
+        {
+          "price": 90,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0033_250611000070",
+      "name": "漆黑的武器箱",
+      "price": 240,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0033_250611000070_260806144431022.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0033_250611000070",
+      "promotion": false,
+      "mainCategoryId": "4",
+      "mainCategoryName": "戰鬥與裝備",
+      "subCategoryId": "1",
+      "subCategoryName": "武器",
+      "priceHistory": [
+        {
+          "price": 240,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0276_260416145325",
+      "name": "零風死鐮",
+      "price": 90,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0276_260416145325_260416145325432.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0276_260416145325",
+      "promotion": false,
+      "mainCategoryId": "4",
+      "mainCategoryName": "戰鬥與裝備",
+      "subCategoryId": "1",
+      "subCategoryName": "武器",
+      "priceHistory": [
+        {
+          "price": 90,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0271_260416104858",
+      "name": "血盟公爵武器系列",
+      "price": 120,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0271_260416104858_260416104858853.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0271_260416104858",
+      "promotion": false,
+      "mainCategoryId": "4",
+      "mainCategoryName": "戰鬥與裝備",
+      "subCategoryId": "1",
+      "subCategoryName": "武器",
+      "priceHistory": [
+        {
+          "price": 120,
+          "date": "2026-08-23T14:17:01.453Z"
         }
       ]
     },
@@ -3815,6 +5147,420 @@
         {
           "price": 90,
           "date": "2026-01-30T12:38:54.228Z"
+        }
+      ]
+    },
+    {
+      "id": "F0254_260708164522",
+      "name": "南海女式夏褲(女性角色限定)",
+      "price": 90,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0254_260708164522_260708164522231.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0254_260708164522",
+      "promotion": false,
+      "mainCategoryId": "4",
+      "mainCategoryName": "戰鬥與裝備",
+      "subCategoryId": "2",
+      "subCategoryName": "防具",
+      "priceHistory": [
+        {
+          "price": 90,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0253_260708164304",
+      "name": "南海女式條紋連衣裙(女性角色限定)",
+      "price": 90,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0253_260708164304_260708164304773.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0253_260708164304",
+      "promotion": false,
+      "mainCategoryId": "4",
+      "mainCategoryName": "戰鬥與裝備",
+      "subCategoryId": "2",
+      "subCategoryName": "防具",
+      "priceHistory": [
+        {
+          "price": 90,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0252_260708163927",
+      "name": "南海女式連衣裙(女性角色限定)",
+      "price": 90,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0252_260708163927_260708163928116.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0252_260708163927",
+      "promotion": false,
+      "mainCategoryId": "4",
+      "mainCategoryName": "戰鬥與裝備",
+      "subCategoryId": "2",
+      "subCategoryName": "防具",
+      "priceHistory": [
+        {
+          "price": 90,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0251_260708160800",
+      "name": "南海男式短褲(男性角色限定)",
+      "price": 90,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0251_260708160800_260708160800698.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0251_260708160800",
+      "promotion": false,
+      "mainCategoryId": "4",
+      "mainCategoryName": "戰鬥與裝備",
+      "subCategoryId": "2",
+      "subCategoryName": "防具",
+      "priceHistory": [
+        {
+          "price": 90,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0250_260708155222",
+      "name": "南海男式條紋坎肩(男性角色限定)",
+      "price": 90,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0250_260708155222_260708155223027.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0250_260708155222",
+      "promotion": false,
+      "mainCategoryId": "4",
+      "mainCategoryName": "戰鬥與裝備",
+      "subCategoryId": "2",
+      "subCategoryName": "防具",
+      "priceHistory": [
+        {
+          "price": 90,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0249_260708153840",
+      "name": "南海男式坎肩(男性角色限定)",
+      "price": 90,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0249_260708153840_260708153840253.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0249_260708153840",
+      "promotion": false,
+      "mainCategoryId": "4",
+      "mainCategoryName": "戰鬥與裝備",
+      "subCategoryId": "2",
+      "subCategoryName": "防具",
+      "priceHistory": [
+        {
+          "price": 90,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0248_260708152526",
+      "name": "舟形木屐(女性角色限定)",
+      "price": 90,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0248_260708152526_260708152526441.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0248_260708152526",
+      "promotion": false,
+      "mainCategoryId": "4",
+      "mainCategoryName": "戰鬥與裝備",
+      "subCategoryId": "2",
+      "subCategoryName": "防具",
+      "priceHistory": [
+        {
+          "price": 90,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0247_260708151225",
+      "name": "二齒木屐(男性角色限定)",
+      "price": 90,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0247_260708151225_260708151226022.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0247_260708151225",
+      "promotion": false,
+      "mainCategoryId": "4",
+      "mainCategoryName": "戰鬥與裝備",
+      "subCategoryId": "2",
+      "subCategoryName": "防具",
+      "priceHistory": [
+        {
+          "price": 90,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0246_260708145811",
+      "name": "金黃淑女束褲(女性角色限定)",
+      "price": 90,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0246_260708145811_260708145811565.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0246_260708145811",
+      "promotion": false,
+      "mainCategoryId": "4",
+      "mainCategoryName": "戰鬥與裝備",
+      "subCategoryId": "2",
+      "subCategoryName": "防具",
+      "priceHistory": [
+        {
+          "price": 90,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0245_260708145410",
+      "name": "粉白淑女束褲(女性角色限定)",
+      "price": 90,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0245_260708145410_260708145411019.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0245_260708145410",
+      "promotion": false,
+      "mainCategoryId": "4",
+      "mainCategoryName": "戰鬥與裝備",
+      "subCategoryId": "2",
+      "subCategoryName": "防具",
+      "priceHistory": [
+        {
+          "price": 90,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0244_260708114445",
+      "name": "墨黑淑女束褲(女性角色限定)",
+      "price": 90,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0244_260708114445_260708114445471.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0244_260708114445",
+      "promotion": false,
+      "mainCategoryId": "4",
+      "mainCategoryName": "戰鬥與裝備",
+      "subCategoryId": "2",
+      "subCategoryName": "防具",
+      "priceHistory": [
+        {
+          "price": 90,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0243_260708113345",
+      "name": "金黃君子束褲(男性角色限定)",
+      "price": 90,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0243_260708113345_260708113345737.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0243_260708113345",
+      "promotion": false,
+      "mainCategoryId": "4",
+      "mainCategoryName": "戰鬥與裝備",
+      "subCategoryId": "2",
+      "subCategoryName": "防具",
+      "priceHistory": [
+        {
+          "price": 90,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0242_260708113054",
+      "name": "粉白君子束褲(男性角色限定)",
+      "price": 90,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0242_260708113054_260708113054827.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0242_260708113054",
+      "promotion": false,
+      "mainCategoryId": "4",
+      "mainCategoryName": "戰鬥與裝備",
+      "subCategoryId": "2",
+      "subCategoryName": "防具",
+      "priceHistory": [
+        {
+          "price": 90,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0241_260708111648",
+      "name": "墨黑君子束褲(男性角色限定)",
+      "price": 90,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0241_260708111648_260708111648344.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0241_260708111648",
+      "promotion": false,
+      "mainCategoryId": "4",
+      "mainCategoryName": "戰鬥與裝備",
+      "subCategoryId": "2",
+      "subCategoryName": "防具",
+      "priceHistory": [
+        {
+          "price": 90,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0210_260429112355",
+      "name": "黃色絨球莫古莫古帽",
+      "price": 90,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0210_260429112355_260429112355507.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0210_260429112355",
+      "promotion": false,
+      "mainCategoryId": "4",
+      "mainCategoryName": "戰鬥與裝備",
+      "subCategoryId": "2",
+      "subCategoryName": "防具",
+      "priceHistory": [
+        {
+          "price": 90,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0203_260304101614",
+      "name": "兔子禮服",
+      "price": 90,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0203_260304101614_260304101614771.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0203_260304101614",
+      "promotion": false,
+      "mainCategoryId": "4",
+      "mainCategoryName": "戰鬥與裝備",
+      "subCategoryId": "2",
+      "subCategoryName": "防具",
+      "priceHistory": [
+        {
+          "price": 90,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0202_260304101224",
+      "name": "兔子服",
+      "price": 90,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0202_260304101224_260304101224341.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0202_260304101224",
+      "promotion": false,
+      "mainCategoryId": "4",
+      "mainCategoryName": "戰鬥與裝備",
+      "subCategoryId": "2",
+      "subCategoryName": "防具",
+      "priceHistory": [
+        {
+          "price": 90,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0201_260304100539",
+      "name": "兔子頭",
+      "price": 90,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0201_260304100539_260304100539818.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0201_260304100539",
+      "promotion": false,
+      "mainCategoryId": "4",
+      "mainCategoryName": "戰鬥與裝備",
+      "subCategoryId": "2",
+      "subCategoryName": "防具",
+      "priceHistory": [
+        {
+          "price": 90,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0190_260303114051",
+      "name": "陸行鳥蛋殼帽",
+      "price": 90,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0190_260303114051_260303114052108.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0190_260303114051",
+      "promotion": false,
+      "mainCategoryId": "4",
+      "mainCategoryName": "戰鬥與裝備",
+      "subCategoryId": "2",
+      "subCategoryName": "防具",
+      "priceHistory": [
+        {
+          "price": 90,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0189_260303113847",
+      "name": "暗黑蛋殼帽",
+      "price": 90,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0189_260303113847_260303113848010.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0189_260303113847",
+      "promotion": false,
+      "mainCategoryId": "4",
+      "mainCategoryName": "戰鬥與裝備",
+      "subCategoryId": "2",
+      "subCategoryName": "防具",
+      "priceHistory": [
+        {
+          "price": 90,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0188_260303113038",
+      "name": "三色蛋殼帽",
+      "price": 90,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0188_260303113038_260303113038369.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0188_260303113038",
+      "promotion": false,
+      "mainCategoryId": "4",
+      "mainCategoryName": "戰鬥與裝備",
+      "subCategoryId": "2",
+      "subCategoryName": "防具",
+      "priceHistory": [
+        {
+          "price": 90,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0187_260303111231",
+      "name": "迷彩蛋殼帽",
+      "price": 90,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0187_260303111231_260303111231726.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0187_260303111231",
+      "promotion": false,
+      "mainCategoryId": "4",
+      "mainCategoryName": "戰鬥與裝備",
+      "subCategoryId": "2",
+      "subCategoryName": "防具",
+      "priceHistory": [
+        {
+          "price": 90,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "F0186_260303110855",
+      "name": "質樸蛋殼帽",
+      "price": 90,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0186_260303110855_260303110855877.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=F0186_260303110855",
+      "promotion": false,
+      "mainCategoryId": "4",
+      "mainCategoryName": "戰鬥與裝備",
+      "subCategoryId": "2",
+      "subCategoryName": "防具",
+      "priceHistory": [
+        {
+          "price": 90,
+          "date": "2026-08-23T14:17:01.453Z"
         }
       ]
     },
@@ -4575,6 +6321,24 @@
       ]
     },
     {
+      "id": "E0001_250605174208",
+      "name": "演技教材·守護天節的魔咒",
+      "price": 60,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/E0001_250605174208_250605174210096.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=E0001_250605174208",
+      "promotion": false,
+      "mainCategoryId": "5",
+      "mainCategoryName": "社交與情感",
+      "subCategoryId": "1",
+      "subCategoryName": "情感動作",
+      "priceHistory": [
+        {
+          "price": 60,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
       "id": "E0014_250611000125",
       "name": "演技教材·打響指",
       "price": 210,
@@ -4607,6 +6371,168 @@
         {
           "price": 210,
           "date": "2026-01-30T12:38:54.228Z"
+        }
+      ]
+    },
+    {
+      "id": "E0046_260608150640",
+      "name": "演技教材·烈焰之舞",
+      "price": 60,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/E0046_260608150640_260608150640557.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=E0046_260608150640",
+      "promotion": false,
+      "mainCategoryId": "5",
+      "mainCategoryName": "社交與情感",
+      "subCategoryId": "1",
+      "subCategoryName": "情感動作",
+      "priceHistory": [
+        {
+          "price": 60,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "E0048_260512112334",
+      "name": "演技教材·火盆舞",
+      "price": 60,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/E0048_260512112334_260512112334730.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=E0048_260512112334",
+      "promotion": false,
+      "mainCategoryId": "5",
+      "mainCategoryName": "社交與情感",
+      "subCategoryId": "1",
+      "subCategoryName": "情感動作",
+      "priceHistory": [
+        {
+          "price": 60,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "E0047_260512095955",
+      "name": "演技教材·雀躍",
+      "price": 360,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/E0047_260512095955_260512095955736.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=E0047_260512095955",
+      "promotion": false,
+      "mainCategoryId": "5",
+      "mainCategoryName": "社交與情感",
+      "subCategoryId": "1",
+      "subCategoryName": "情感動作",
+      "priceHistory": [
+        {
+          "price": 360,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "E0044_260512093513",
+      "name": "演技教材·展現",
+      "price": 90,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/E0044_260512093513_260512093513227.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=E0044_260512093513",
+      "promotion": false,
+      "mainCategoryId": "5",
+      "mainCategoryName": "社交與情感",
+      "subCategoryId": "1",
+      "subCategoryName": "情感動作",
+      "priceHistory": [
+        {
+          "price": 90,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "E0043_260511171217",
+      "name": "演技教材·優雅仙人掌怪",
+      "price": 60,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/E0043_260511171217_260511171217746.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=E0043_260511171217",
+      "promotion": false,
+      "mainCategoryId": "5",
+      "mainCategoryName": "社交與情感",
+      "subCategoryId": "1",
+      "subCategoryName": "情感動作",
+      "priceHistory": [
+        {
+          "price": 60,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "E0042_260511112512",
+      "name": "演技教材·靈光一現",
+      "price": 60,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/E0042_260511112512_260511112512612.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=E0042_260511112512",
+      "promotion": false,
+      "mainCategoryId": "5",
+      "mainCategoryName": "社交與情感",
+      "subCategoryId": "1",
+      "subCategoryName": "情感動作",
+      "priceHistory": [
+        {
+          "price": 60,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "E0056_260415141234",
+      "name": "演技教材·吹泡泡",
+      "price": 210,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/F0268_260415141234_260415141234992.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=E0056_260415141234",
+      "promotion": false,
+      "mainCategoryId": "5",
+      "mainCategoryName": "社交與情感",
+      "subCategoryId": "1",
+      "subCategoryName": "情感動作",
+      "priceHistory": [
+        {
+          "price": 210,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "E0041_260304140528",
+      "name": "演技教材·嚇唬人",
+      "price": 60,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/E0041_260304140528_260304140528501.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=E0041_260304140528",
+      "promotion": false,
+      "mainCategoryId": "5",
+      "mainCategoryName": "社交與情感",
+      "subCategoryId": "1",
+      "subCategoryName": "情感動作",
+      "priceHistory": [
+        {
+          "price": 60,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "E0039_260304132704",
+      "name": "演技教材·吃水煮蛋",
+      "price": 60,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/E0039_260304132704_260304132704740.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=E0039_260304132704",
+      "promotion": false,
+      "mainCategoryId": "5",
+      "mainCategoryName": "社交與情感",
+      "subCategoryId": "1",
+      "subCategoryName": "情感動作",
+      "priceHistory": [
+        {
+          "price": 60,
+          "date": "2026-08-23T14:17:01.453Z"
         }
       ]
     },
@@ -5345,6 +7271,672 @@
         {
           "price": 450,
           "date": "2026-01-30T12:38:54.228Z"
+        }
+      ]
+    },
+    {
+      "id": "H0175_260709105128",
+      "name": "EX探究永久之人海報",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/H0175_260709105128_260709105128906.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=H0175_260709105128",
+      "promotion": false,
+      "mainCategoryId": "6",
+      "mainCategoryName": "住宅與裝飾",
+      "subCategoryId": "1",
+      "subCategoryName": "房屋裝潢",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "H0166_260709104704",
+      "name": "EX西瓜水盆",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/H0166_260709104704_260709104704621.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=H0166_260709104704",
+      "promotion": false,
+      "mainCategoryId": "6",
+      "mainCategoryName": "住宅與裝飾",
+      "subCategoryId": "1",
+      "subCategoryName": "房屋裝潢",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "H0165_260709104145",
+      "name": "EX東方的許願竹",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/H0165_260709104145_260709104145624.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=H0165_260709104145",
+      "promotion": false,
+      "mainCategoryId": "6",
+      "mainCategoryName": "住宅與裝飾",
+      "subCategoryId": "1",
+      "subCategoryName": "房屋裝潢",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "H0164_260709103837",
+      "name": "EX紅蓮燈籠",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/H0164_260709103837_260709103837814.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=H0164_260709103837",
+      "promotion": false,
+      "mainCategoryId": "6",
+      "mainCategoryName": "住宅與裝飾",
+      "subCategoryId": "1",
+      "subCategoryName": "房屋裝潢",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "H0163_260709093757",
+      "name": "EX轟擊怪燈籠",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/H0163_260709093757_260709093757348.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=H0163_260709093757",
+      "promotion": false,
+      "mainCategoryId": "6",
+      "mainCategoryName": "住宅與裝飾",
+      "subCategoryId": "1",
+      "subCategoryName": "房屋裝潢",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "H0161_260612103949",
+      "name": "EX夏日篝火",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/H0161_260612103949_260612103949314.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=H0161_260612103949",
+      "promotion": false,
+      "mainCategoryId": "6",
+      "mainCategoryName": "住宅與裝飾",
+      "subCategoryId": "1",
+      "subCategoryName": "房屋裝潢",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "H0160_260608163036",
+      "name": "EX烤玉米5入組",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/H0160_260608163036_260608163036489.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=H0160_260608163036",
+      "promotion": false,
+      "mainCategoryId": "6",
+      "mainCategoryName": "住宅與裝飾",
+      "subCategoryId": "1",
+      "subCategoryName": "房屋裝潢",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "H0159_260608151757",
+      "name": "EX冰海岸5入組",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/H0159_260608151757_260608151758083.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=H0159_260608151757",
+      "promotion": false,
+      "mainCategoryId": "6",
+      "mainCategoryName": "住宅與裝飾",
+      "subCategoryId": "1",
+      "subCategoryName": "房屋裝潢",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "H0158_260608144037",
+      "name": "EX紅蓮祭海報2018",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/H0158_260608144037_260608144037982.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=H0158_260608144037",
+      "promotion": false,
+      "mainCategoryId": "6",
+      "mainCategoryName": "住宅與裝飾",
+      "subCategoryId": "1",
+      "subCategoryName": "房屋裝潢",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "H0156_260608143108",
+      "name": "EX攜帶型泳池",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/H0156_260608143108_260608143108593.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=H0156_260608143108",
+      "promotion": false,
+      "mainCategoryId": "6",
+      "mainCategoryName": "住宅與裝飾",
+      "subCategoryId": "1",
+      "subCategoryName": "房屋裝潢",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "H0155_260608135514",
+      "name": "EX咖哩飯5入組",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/H0155_260608135514_260608135514803.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=H0155_260608135514",
+      "promotion": false,
+      "mainCategoryId": "6",
+      "mainCategoryName": "住宅與裝飾",
+      "subCategoryId": "1",
+      "subCategoryName": "房屋裝潢",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "H0154_260604172432",
+      "name": "EX七彩刨冰5入組",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/H0154_260604172432_260604172432321.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=H0154_260604172432",
+      "promotion": false,
+      "mainCategoryId": "6",
+      "mainCategoryName": "住宅與裝飾",
+      "subCategoryId": "1",
+      "subCategoryName": "房屋裝潢",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "H0153_260604165930",
+      "name": "EX莫古利蚊香罐",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/H0153_260604165930_260604165930431.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=H0153_260604165930",
+      "promotion": false,
+      "mainCategoryId": "6",
+      "mainCategoryName": "住宅與裝飾",
+      "subCategoryId": "1",
+      "subCategoryName": "房屋裝潢",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "H0152_260604114047",
+      "name": "EX新生氣球",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/H0152_260604114047_260604114047951.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=H0152_260604114047",
+      "promotion": false,
+      "mainCategoryId": "6",
+      "mainCategoryName": "住宅與裝飾",
+      "subCategoryId": "1",
+      "subCategoryName": "房屋裝潢",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "H0151_260604112016",
+      "name": "EX螢籠",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/H0151_260604112016_260604112016906.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=H0151_260604112016",
+      "promotion": false,
+      "mainCategoryId": "6",
+      "mainCategoryName": "住宅與裝飾",
+      "subCategoryId": "1",
+      "subCategoryName": "房屋裝潢",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "H0174_260512153403",
+      "name": "EX仙人掌花園",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/H0174_260512153403_260512153403928.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=H0174_260512153403",
+      "promotion": false,
+      "mainCategoryId": "6",
+      "mainCategoryName": "住宅與裝飾",
+      "subCategoryId": "1",
+      "subCategoryName": "房屋裝潢",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "H0173_260512153111",
+      "name": "EX園藝棕櫚樹",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/H0173_260512153111_260512153111409.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=H0173_260512153111",
+      "promotion": false,
+      "mainCategoryId": "6",
+      "mainCategoryName": "住宅與裝飾",
+      "subCategoryId": "1",
+      "subCategoryName": "房屋裝潢",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "H0177_260512152618",
+      "name": "EX賣面具的攤位",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/H0177_260512152618_260512152618930.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=H0177_260512152618",
+      "promotion": false,
+      "mainCategoryId": "6",
+      "mainCategoryName": "住宅與裝飾",
+      "subCategoryId": "1",
+      "subCategoryName": "房屋裝潢",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "H0176_260512152244",
+      "name": "EX賣水球的攤位",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/H0176_260512152244_260512152245003.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=H0176_260512152244",
+      "promotion": false,
+      "mainCategoryId": "6",
+      "mainCategoryName": "住宅與裝飾",
+      "subCategoryId": "1",
+      "subCategoryName": "房屋裝潢",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "H0157_260512151721",
+      "name": "EX賣風鈴的攤位",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/H0157_260512151721_260512151721637.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=H0157_260512151721",
+      "promotion": false,
+      "mainCategoryId": "6",
+      "mainCategoryName": "住宅與裝飾",
+      "subCategoryId": "1",
+      "subCategoryName": "房屋裝潢",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "H0162_260512144437",
+      "name": "EX東方風鈴",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/H0162_260512144437_260512144437954.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=H0162_260512144437",
+      "promotion": false,
+      "mainCategoryId": "6",
+      "mainCategoryName": "住宅與裝飾",
+      "subCategoryId": "1",
+      "subCategoryName": "房屋裝潢",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "H0172_260512105535",
+      "name": "EX酒杯塔",
+      "price": 300,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/H0172_260512105535_260512105536059.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=H0172_260512105535",
+      "promotion": false,
+      "mainCategoryId": "6",
+      "mainCategoryName": "住宅與裝飾",
+      "subCategoryId": "1",
+      "subCategoryName": "房屋裝潢",
+      "priceHistory": [
+        {
+          "price": 300,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "H0150_260511110840",
+      "name": "EX仙人掌怪先生獎盃",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/H0150_260511110840_260511110840979.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=H0150_260511110840",
+      "promotion": false,
+      "mainCategoryId": "6",
+      "mainCategoryName": "住宅與裝飾",
+      "subCategoryId": "1",
+      "subCategoryName": "房屋裝潢",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "H0087_260413133743",
+      "name": "EX與未知邂逅海報",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/H0087_260413133743_260413133743934.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=H0087_260413133743",
+      "promotion": false,
+      "mainCategoryId": "6",
+      "mainCategoryName": "住宅與裝飾",
+      "subCategoryId": "1",
+      "subCategoryName": "房屋裝潢",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "H0148_260304133301",
+      "name": "EX尋蛋趣旋轉掛飾",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/H0148_260304133301_260330155202072.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=H0148_260304133301",
+      "promotion": false,
+      "mainCategoryId": "6",
+      "mainCategoryName": "住宅與裝飾",
+      "subCategoryId": "1",
+      "subCategoryName": "房屋裝潢",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "H0147_260304133001",
+      "name": "EX彩蛋籃",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/H0147_260304133001_260304133001660.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=H0147_260304133001",
+      "promotion": false,
+      "mainCategoryId": "6",
+      "mainCategoryName": "住宅與裝飾",
+      "subCategoryId": "1",
+      "subCategoryName": "房屋裝潢",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "H0146_260304111214",
+      "name": "EX預言蛋肩包",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/H0146_260304111214_260304111214989.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=H0146_260304111214",
+      "promotion": false,
+      "mainCategoryId": "6",
+      "mainCategoryName": "住宅與裝飾",
+      "subCategoryId": "1",
+      "subCategoryName": "房屋裝潢",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "H0145_260304105524",
+      "name": "EX尋蛋趣小茶點5入組",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/H0145_260304105524_260304105524915.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=H0145_260304105524",
+      "promotion": false,
+      "mainCategoryId": "6",
+      "mainCategoryName": "住宅與裝飾",
+      "subCategoryId": "1",
+      "subCategoryName": "房屋裝潢",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "H0143_260304102526",
+      "name": "EX尋蛋趣海報2018",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/H0143_260304102526_260304102526302.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=H0143_260304102526",
+      "promotion": false,
+      "mainCategoryId": "6",
+      "mainCategoryName": "住宅與裝飾",
+      "subCategoryId": "1",
+      "subCategoryName": "房屋裝潢",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "H0142_260304102024",
+      "name": "EX兔子玩偶",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/H0142_260304102024_260304102024525.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=H0142_260304102024",
+      "promotion": false,
+      "mainCategoryId": "6",
+      "mainCategoryName": "住宅與裝飾",
+      "subCategoryId": "1",
+      "subCategoryName": "房屋裝潢",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "H0140_260303160222",
+      "name": "EX堆起來的彩蛋",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/H0140_260303160222_260303160223164.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=H0140_260303160222",
+      "promotion": false,
+      "mainCategoryId": "6",
+      "mainCategoryName": "住宅與裝飾",
+      "subCategoryId": "1",
+      "subCategoryName": "房屋裝潢",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "H0139_260303155924",
+      "name": "EX彩蛋巧克力蛋糕5入組",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/H0139_260303155924_260303155925103.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=H0139_260303155924",
+      "promotion": false,
+      "mainCategoryId": "6",
+      "mainCategoryName": "住宅與裝飾",
+      "subCategoryId": "1",
+      "subCategoryName": "房屋裝潢",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "H0138_260303155526",
+      "name": "EX彩蛋皇冠羊排5入組",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/H0138_260303155526_260303155526448.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=H0138_260303155526",
+      "promotion": false,
+      "mainCategoryId": "6",
+      "mainCategoryName": "住宅與裝飾",
+      "subCategoryId": "1",
+      "subCategoryName": "房屋裝潢",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "H0137_260303153947",
+      "name": "EX尋蛋趣錦旗",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/H0137_260303153947_260303153947540.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=H0137_260303153947",
+      "promotion": false,
+      "mainCategoryId": "6",
+      "mainCategoryName": "住宅與裝飾",
+      "subCategoryId": "1",
+      "subCategoryName": "房屋裝潢",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "H0136_260303152700",
+      "name": "EX預言蛋內牆",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/H0136_260303152700_260303152700478.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=H0136_260303152700",
+      "promotion": false,
+      "mainCategoryId": "6",
+      "mainCategoryName": "住宅與裝飾",
+      "subCategoryId": "1",
+      "subCategoryName": "房屋裝潢",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "H0135_260303144158",
+      "name": "EX預言蛋巨塔",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/H0135_260303144158_260303144158994.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=H0135_260303144158",
+      "promotion": false,
+      "mainCategoryId": "6",
+      "mainCategoryName": "住宅與裝飾",
+      "subCategoryId": "1",
+      "subCategoryName": "房屋裝潢",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "H0134_260303143200",
+      "name": "EX彩蛋落地燈",
+      "price": 150,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/H0134_260303143200_260303143200453.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=H0134_260303143200",
+      "promotion": false,
+      "mainCategoryId": "6",
+      "mainCategoryName": "住宅與裝飾",
+      "subCategoryId": "1",
+      "subCategoryName": "房屋裝潢",
+      "priceHistory": [
+        {
+          "price": 150,
+          "date": "2026-08-23T14:17:01.453Z"
         }
       ]
     },
@@ -6388,6 +8980,24 @@
       "priceHistory": [
         {
           "price": 300,
+          "date": "2026-01-30T12:38:54.228Z"
+        }
+      ]
+    },
+    {
+      "id": "H0086_260112143240",
+      "name": "漆黑反叛者系列主題海報套裝",
+      "price": 375,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/H0086_260112143240_260112143241328.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=H0086_260112143240",
+      "promotion": false,
+      "mainCategoryId": "6",
+      "mainCategoryName": "住宅與裝飾",
+      "subCategoryId": "1",
+      "subCategoryName": "房屋裝潢",
+      "priceHistory": [
+        {
+          "price": 375,
           "date": "2026-01-30T12:38:54.228Z"
         }
       ]
@@ -7671,6 +10281,42 @@
       ]
     },
     {
+      "id": "O0029_260304140815",
+      "name": "管弦樂琴樂譜：Pa-Paya Demastered",
+      "price": 90,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/O0029_260304140815_260304140815406.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=O0029_260304140815",
+      "promotion": false,
+      "mainCategoryId": "6",
+      "mainCategoryName": "住宅與裝飾",
+      "subCategoryId": "2",
+      "subCategoryName": "管弦樂譜",
+      "priceHistory": [
+        {
+          "price": 90,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
+      "id": "O0027_260303144637",
+      "name": "管弦樂琴樂譜：Pa-Paya",
+      "price": 90,
+      "imageUrl": "https://file.ffxiv.com.tw/store/shop/O0027_260303144637_260303144637554.jpg",
+      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=O0027_260303144637",
+      "promotion": false,
+      "mainCategoryId": "6",
+      "mainCategoryName": "住宅與裝飾",
+      "subCategoryId": "2",
+      "subCategoryName": "管弦樂譜",
+      "priceHistory": [
+        {
+          "price": 90,
+          "date": "2026-08-23T14:17:01.453Z"
+        }
+      ]
+    },
+    {
       "id": "O0028_260205155433",
       "name": "管弦樂琴樂譜：進退",
       "price": 90,
@@ -8908,24 +11554,6 @@
       "priceHistory": [
         {
           "price": 300,
-          "date": "2026-01-30T12:38:54.228Z"
-        }
-      ]
-    },
-    {
-      "id": "H0086_260112143240",
-      "name": "漆黑反叛者系列主題海報套裝",
-      "price": 375,
-      "imageUrl": "https://file.ffxiv.com.tw/store/shop/H0086_260112143240_260112143241328.jpg",
-      "detailUrl": "https://www.ffxiv.com.tw/web/store/product_detail.aspx?id=H0086_260112143240",
-      "mainCategoryId": "6",
-      "mainCategoryName": "住宅與裝飾",
-      "subCategoryId": "1",
-      "subCategoryName": "房屋裝潢",
-      "promotion": false,
-      "priceHistory": [
-        {
-          "price": 375,
           "date": "2026-01-30T12:38:54.228Z"
         }
       ]
