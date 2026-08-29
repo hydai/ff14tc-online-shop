@@ -10,6 +10,7 @@ import { hasPriceDropped } from "@/lib/priceUtils";
 import Header from "@/components/Header";
 import SearchBar from "@/components/SearchBar";
 import CategoryFilter from "@/components/CategoryFilter";
+import FilterCheckbox from "@/components/FilterCheckbox";
 import ItemGrid from "@/components/ItemGrid";
 
 const allItems = getAllItems();
@@ -86,33 +87,9 @@ export default function Home() {
             <SearchBar value={search} onChange={setSearch} />
           </div>
           <div className="flex flex-wrap items-center gap-4">
-            <label className="flex items-center gap-2 text-sm text-gray-300 cursor-pointer whitespace-nowrap">
-              <input
-                type="checkbox"
-                checked={hidePurchased}
-                onChange={(e) => setHidePurchased(e.target.checked)}
-                className="rounded border-gray-600 bg-gray-800 text-emerald-500 focus:ring-emerald-500"
-              />
-              隱藏已購買
-            </label>
-            <label className="flex items-center gap-2 text-sm text-gray-300 cursor-pointer whitespace-nowrap">
-              <input
-                type="checkbox"
-                checked={showWishlistOnly}
-                onChange={(e) => setShowWishlistOnly(e.target.checked)}
-                className="rounded border-gray-600 bg-gray-800 text-rose-500 focus:ring-rose-500"
-              />
-              只顯示願望清單
-            </label>
-            <label className="flex items-center gap-2 text-sm text-gray-300 cursor-pointer whitespace-nowrap">
-              <input
-                type="checkbox"
-                checked={showPriceDropOnly}
-                onChange={(e) => setShowPriceDropOnly(e.target.checked)}
-                className="rounded border-gray-600 bg-gray-800 text-green-500 focus:ring-green-500"
-              />
-              價格下降
-            </label>
+            <FilterCheckbox checked={hidePurchased} onCheckedChange={setHidePurchased} label="隱藏已購買" accentColor="emerald" />
+            <FilterCheckbox checked={showWishlistOnly} onCheckedChange={setShowWishlistOnly} label="只顯示願望清單" accentColor="rose" />
+            <FilterCheckbox checked={showPriceDropOnly} onCheckedChange={setShowPriceDropOnly} label="價格下降" accentColor="green" />
           </div>
         </div>
 
