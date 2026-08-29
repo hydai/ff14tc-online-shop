@@ -23,10 +23,10 @@ function Pill({
   return (
     <button
       onClick={onClick}
-      className={`rounded-full px-3 py-1 text-sm font-medium transition-colors ${
+      className={`rounded-full px-4 py-1.5 text-sm font-medium transition-all duration-200 ${
         active
-          ? "bg-blue-600 text-white"
-          : "bg-gray-800 text-gray-300 hover:bg-gray-700"
+          ? "bg-[var(--color-accent)] text-[var(--color-accent-foreground)] shadow-[0_0_20px_rgba(245,158,11,0.25)]"
+          : "glass text-[var(--color-muted-foreground)] hover:text-[var(--color-foreground)] hover:border-[var(--color-border-hover)]"
       }`}
     >
       {label}
@@ -43,7 +43,7 @@ export default function CategoryFilter({
   onSubChange,
 }: CategoryFilterProps) {
   return (
-    <div className="flex flex-col gap-2">
+    <div className="flex flex-col gap-3">
       <div className="flex flex-wrap gap-2">
         <Pill
           label="全部"
@@ -60,7 +60,7 @@ export default function CategoryFilter({
         ))}
       </div>
       {selectedMain && subCategories.length > 0 && (
-        <div className="flex flex-wrap gap-2 pl-2">
+        <div className="flex flex-wrap gap-2 pl-2 border-l-2 border-[var(--color-accent)]/20">
           <Pill
             label="全部子類"
             active={selectedSub === ""}
